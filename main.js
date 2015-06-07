@@ -167,6 +167,8 @@ conn.on('ready', function(data) {
     pin: 0,
   });
 
+     base.to(90);
+
 /*      var left = new five.Servo({
     address: 0x40,
     controller: "PCA9685",
